@@ -1,9 +1,10 @@
 @import "variables";
 @import "mixins";
+@import "button";
 
 .header {
     height: $header-height;
-    padding: 8px 300px 0 300px;
+    padding: 8px 300px 8px 300px;
     display: flex;
     justify-content: space-between;
 
@@ -29,9 +30,10 @@
     &__controls {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     &__button {
-        @include button();
+        @include setActiveBtnColor(green);
     }
 }

@@ -1,0 +1,18 @@
+.button {  
+    height: 26px;
+    min-width: 26px;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    color: rgba(0, 0, 0, .7);
+
+    i {
+        font-size: 20px;
+    }
+
+    &:hover {
+        background: #eee;
+        cursor: pointer;
+    }
+}
