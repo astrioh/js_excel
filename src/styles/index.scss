@@ -26,4 +26,11 @@ body {
         left: 0;
         right: 0;
     }
+
+    &__toolbar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: $header-height;
+    }
 }

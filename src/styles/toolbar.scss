@@ -1,0 +1,23 @@
+@import "variables";
+@import "mixins";
+@import "button";
+
+.toolbar {
+    height: $toolbar-height;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    padding: 7px 30px;
+    display: flex;
+
+    &__button {
+        @include setActiveBtnColor(green);
+        margin-right: 5px;
+    }
+
+    &__separator {
+        width: 0;
+        height: 100%;
+        border-right: 1px solid $border-color;
+        margin-right: 5px;
+    }
+}
