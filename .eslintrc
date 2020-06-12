@@ -9,7 +9,8 @@
         "indent": "off",
         "linebreak-style": "off",
         "prefer-const": "warn",
-        "require-jsdoc": "off"
+        "require-jsdoc": "off",
+        "no-trailing-spaces": "off"
     },
     "extends": ["eslint:recommended", "google"]
 }
