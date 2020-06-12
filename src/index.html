@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>JS Excel</title>
 </head>
 <body>
-    <div id="app" class="container"></div>
+    <div id="app" class="container">
+        <div class="excel">
+            <header class="excel__header header">
+                <input type="text" class="header__title-input" value="New table"/>
+                <div class="header__controls">
+                    <div class="header__button"><i class="material-icons">exit_to_app</i></div>
+                    <div class="header__button"><i class="material-icons">delete</i></div>
+                </div>
+            </header>
+            <div class="toolbar"></div>
+            <div class="formula"></div>
+            <div class="table"></div>
+        </div>
+    </div>
 </body>
 </html>
